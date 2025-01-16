@@ -1,0 +1,15 @@
+1.pwd    present hum kha pe hai
+2.ls     folder ka pura list aajata isme
+3.cd     kissi bhi directory me jane ke lie    cd..  wapus aane ke lie
+4.mkdir  make folder
+5.rmdir  remove folder
+6.touch  make file
+7.rm     remove file
+8.cp     copy from one to another file
+9.mv     move from one file to another
+10.env    
+
+
+wsl command se ubuntu,how?? 
+NOTEPAD++ INSTALL
+BRANCH KRKE PUSH KRNA HAI REPO ME (how to push)

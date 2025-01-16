@@ -1,0 +1,42 @@
+public class main(){
+	public static void main(String[] args){
+      Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter first number: ");
+        double num1 = scanner.nextDouble();
+
+        System.out.println("Enter second number: ");
+        double num2 = scanner.nextDouble();
+
+        System.out.println("Enter an operation (+, -, *, /) or press Enter to use division by default: ");
+        char operator = scanner.next().charAt(0);
+		if (operator != '+' && operator != '-' && operator != '*' && operator != '/') {
+            System.out.println("Invalid operator entered. Performing division by default.");
+            operator = '/';
+        }
+
+        double result;
+        switch (operator) {
+            case '+':
+                result = num1 + num2;
+                System.out.println("Result: " + result);
+                break;
+            case '-':
+                result = num1 - num2;
+                System.out.println("Result: " + result);
+                break;
+            case '*':
+                result = num1 * num2;
+                System.out.println("Result: " + result);
+                break;
+            case '/':
+                if (num2 != 0) {
+                    result = num1 / num2;
+                    System.out.println("Result: " + result);
+                } else {
+                    System.out.println("Division by zero is not allowed.");
+                }
+                break;
+        }
+        scanner.close();
+    }
+}
