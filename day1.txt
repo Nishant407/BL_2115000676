@@ -13,3 +13,10 @@
 wsl command se ubuntu,how?? 
 NOTEPAD++ INSTALL
 BRANCH KRKE PUSH KRNA HAI REPO ME (how to push)
+
+Branch push
+1. git status
+2. git add.
+3. git commit -m "checking"
+4. git checkout -b newbranchname
+5. git push origin new branchname
